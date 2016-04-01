@@ -1,0 +1,7 @@
+section.Section1 {background-color: #99ccff; color: white; visibility: hidden; position: relative; width: 600px;}
+
+section.Section2 {background-color: #66ff99; color: white; visibility: hidden; position: relative; width: 600px;}
+
+section.Section3 {background-color:#b3b300; color: white; visibility: hidden; position: relative; width: 600px;}
+
+body {background-color: black; color: white;}

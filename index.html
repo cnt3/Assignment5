@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>IS 491-VT Assignment 5</title>
+    <link rel="stylesheet" type="text/css" href="styles/Assignment5.css"/>
+    <script src="js/Assignment5.js"></script>
+</head>
+
+<body>
+
+    <section id="title">
+        <h1>IS 491-VT Assignment 5</h1>
+    </section>
+    <hr>
+        <select onchange="MenuChoice()" id="menu">
+            <option>Select an option</option>
+            <option>Display Customer List</option>
+            <option>Display Customer Order History</option>
+            <option>Display List of Orders</option>
+        </select>
+
+    <hr>
+
+    <section id="CustomerList" class="Section1">
+        <h2>Customer List</h2>
+        <label id="listdisplay">Customer List:</label>
+        <br>
+        <button onclick="GetCustomers()" id="CustList">Display Customer List</button>
+    
+    </section>
+<hr>
+    <br>
+    <br>
+    <section id="OrderHistory" class="Section2">
+        <h2>Customer Order History</h2>
+        <label>Please enter the Customer ID:</label>
+        <input type="text" id="customerID">
+        <br>
+        <label id="customerhistory">Order History:</label>
+        <br>
+        <button onclick="GetOrderHistory()" id="history">Display Customer Order History</button>
+        
+        
+    </section>
+    <hr>
+    <br>
+    <br>
+    <section id="OrderList" class="Section3">
+        <h2>Customer Order List</h2>
+        <label>Please enter the Customer ID:</label>
+        <input type="text" id="custID">
+        <br>
+        <label id="listOforders">List of Orders placed by Customer:</label>
+        <br>
+        <button onclick="GetOrdersForCustomer()">Display list of orders</button>
+    </section>
+    
+</body>
+</html>
